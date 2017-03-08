@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios Iniciales JavaScript</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <!--Title-->
+    <div class="container" >
+        <div class="row header">
+            <div class="page-header text-center ">
+                    <h1>Ejercicios Iniciales JavaScript</h1>
+            </div>
+
+        </div>
+        <div class="row navigation">
+        <ul class="nav nav-pills">
+            <li role="navigation"><a href="#exercice-1">1</a></li>
+            <li role="navigation"><a href="#exercice-2">2</a></li>
+            <li role="navigation"><a href="#exercice-3">3</a></li>
+            <li role="navigation"><a href="#exercice-4">4</a></li>
+            <li role="navigation"><a href="#exercice-5">5</a></li>
+            <li role="navigation"><a href="#exercice-6">6</a></li>
+            <li role="navigation"><a href="#exercice-7">7</a></li>
+            <li role="navigation"><a href="#exercice-8">8</a></li>
+            <li role="navigation"><a href="#exercice-9">9</a></li>
+            <li role="navigation"><a href="#exercice-10">10</a></li>
+            <li role="navigation"><a href="#exercice-11">11</a></li>
+            <li role="navigation"><a href="#exercice-12">12</a></li>
+            <li role="navigation"><a href="#exercice-13">13</a></li>
+            <li role="navigation"><a href="#exercice-14">14</a></li>
+            <li role="navigation"><a href="#exercice-15">15</a></li>
+            <li role="navigation"><a href="#exercice-16">16</a></li>
+            <li role="navigation"><a href="#exercice-17">17</a></li>
+            <li role="navigation"><a href="#exercice-18">18</a></li>
+            <li role="navigation"><a href="#exercice-19">19</a></li>
+            <li role="navigation"><a href="#exercice-20">20</a></li>
+            <li role="navigation"><a href="#exercice-21">21</a></li>
+            <li role="navigation"><a href="#exercice-22">22</a></li>
+            <li role="navigation"><a href="#exercice-23">23</a></li>
+            <li role="navigation"><a href="#exercice-24">24</a></li>
+            <li role="navigation"><a href="#exercice-25">25</a></li>
+            <li role="navigation"><a href="#exercice-26">26</a></li>
+            <li role="navigation"><a href="#exercice-27">27</a></li>
+            <li role="navigation"><a href="#exercice-28">28</a></li>
+            <li role="navigation"><a href="#exercice-29">29</a></li>
+            <li role="navigation"><a href="#exercice-30">30</a></li>
+            <li role="navigation"><a href="#exercice-31">31</a></li>
+            <li role="navigation"><a href="#exercice-32">32</a></li>
+            <li role="navigation"><a href="#exercice-33">33</a></li>
+            <li role="navigation"><a href="#exercice-34">34</a></li>
+            <li role="navigation"><a href="#exercice-35">35</a></li>
+            <li role="navigation"><a href="#exercice-36">36</a></li>
+            <li role="navigation"><a href="#exercice-37">37</a></li>
+            <li role="navigation"><a href="#exercice-38">38</a></li>
+            <li role="navigation"><a href="#exercice-39">39</a></li>
+            <li role="navigation"><a href="#exercice-40">40</a></li>
+            <li role="navigation"><a href="#exercice-41">41</a></li>
+            <li role="navigation"><a href="#exercice-42">42</a></li>
+            <li role="navigation"><a href="#exercice-43">43</a></li>
+        </ul>
+    </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-centered">
+    <!--Exercice 1-->
+        <div id="exercice-1">
+                <h3>Ejercicio 1</h3>
+                <div class="row ">
+                    <div id="form-1" class="col-md-6 row form-group col-centered">
+                        <p>Introduce el Nombre</p>
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon"></span></span>
+                            <input type="text" name="name-form-1" id="name-form-1" class="form-control">
+                        </div>
+                        </br>
+                        <p>Introduce la Edad</p>
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon "></span></span>
+                            <input type="text" name="age-form-1" id="age-form-1" class="form-control">
+                        </div>
+                        </br>
+                        <p>Introduce el Estado civil</p>
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon"></span></span>
+                            <input type="text" name="status-form-1" id="status-form-1" class="form-control">
+                        </div>
+                        <div class="buttons">
+                            <input class="btn btn-primary" type="button" onclick="saveForm1Value();" value="Enviar">
+                            <input class="btn btn-primary" type="button" onclick="readForm1();" value="Monstrar Datos">
+                            <input class="btn btn-danger" type="reset" value="Reset">
+
+                        </div>
+
+                        <div class="screen">
+                            <p><span id="name-showing-1"></span></p>
+                            <p><span id="age-showing-1"></span> </p>
+                            <p><span id="status-showing-1"></span> </p>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+        </div>
+    <!--Exercice 2-->
+        <div id="exercice-2">
+                <h3>Ejercicio 2</h3>
+            <div class="row ">
+                <div id="form-2" class="col-md-6 row form-group col-centered">
+                    <p>Introduce el Salario</p>
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon"></span></span>
+                        <input type="text" name="salary-form-2" id="salary-form-2" class="form-control">
+                    </div>
+                    </br>
+                    <p>Introduce el Nombre</p>
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon"></span></span>
+                        <input type="text" name="name-form-2" id="name-form-2" class="form-control">
+                    </div>
+                    <div class="buttons">
+                        <input class="btn btn-primary" type="button" onclick="saveForm2Value();" value="Enviar">
+                        <input class="btn btn-primary" type="button" onclick="readForm2();" value="Monstrar Datos">
+                    </div>
+                    <div class="screen">
+                        <p><span id="salary-showing-2"></span></p>
+                        <p><span id="name-showing-2"></span></p>
+                    </div>
+            <hr>
+        </div>
+    <!--Exercice 3-->
+         <div id="exercice-3">
+             <h3>Ejercicio 3</h3>
+             <div class="row ">
+                 <div id="form-3" class="col-md-6 row form-group col-centered">
+             <p>Introduce el Nombre de usuario</p>
+             <div class="input-group">
+                 <span class="input-group-addon"><span class="glyphicon"></span></span>
+                 <input type="text" name="username-form-3" id="username-form-3" class="form-control">
+             </div>
+             </br>
+             <p>Introduce el eMail</p>
+             <div class="input-group">
+                 <span class="input-group-addon"><span class="glyphicon"></span></span>
+                 <input type="text" name="email-form-3" id="email-form-3" class="form-control">
+             </div>
+             <div class="buttons">
+                 <input class="btn btn-primary" type="button" onclick="saveForm3Value();" value="Enviar">
+                 <input class="btn btn-primary" type="button" onclick="readForm3();" value="Monstrar Datos">
+             </div>
+             <div class="screen">
+                 <p><span id="username-showing-3"></span></p>
+                 <p><span id="email-showing-3"></span></p>
+             </div>
+
+             <hr>
+             </div>
+             </div>
+         </div>
+    <!--Exercice 4-->
+         <div id="exercice-4">
+                 <h3>Ejercicio 4</h3>
+
+
+             <hr>
+         </div>
+    <!--Exercice 5-->
+         <div id="exercice-5">
+            <h3>Ejercicio 5</h3>
+
+
+                <hr>
+            </div>
+                <!--Exercice 6-->
+                <div id="exercice-6">
+                    <h3>Ejercicio 6</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 7-->
+                <div id="exercice-7">
+                    <h3>Ejercicio 7</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 8-->
+                <div id="exercice-8">
+                    <h3>Ejercicio 8</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 9-->
+                <div id="exercice-9">
+                    <h3>Ejercicio 9</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 10-->
+                <div id="exercice-10">
+                    <h3>Ejercicio 10</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 11-->
+                <div id="exercice-11">
+                    <h3>Ejercicio 11</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 12-->
+                <div id="exercice-12">
+                    <h3>Ejercicio 12</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 13-->
+                <div id="exercice-13">
+                    <h3>Ejercicio 13</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 14-->
+                <div id="exercice-14">
+                    <h3>Ejercicio 14</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 15-->
+                <div id="exercice-15">
+                    <h3>Ejercicio 15</h3>
+
+                    <hr>
+                </div>
+                <!--Exercice 16-->
+                <div id="exercice-16">
+                    <h3>Ejercicio 16</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 17-->
+                <div id="exercice-17">
+                    <h3>Ejercicio 17</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 18-->
+                <div id="exercice-18">
+                    <h3>Ejercicio 18</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 19-->
+                <div id="exercice-19">
+                    <h3>Ejercicio 19</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 20-->
+                <div id="exercice-20">
+                    <h3>Ejercicio 20</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 21-->
+                <div id="exercice-21">
+                    <h3>Ejercicio 21</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 22-->
+                <div id="exercice-22">
+                    <h3>Ejercicio 22</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 23-->
+                <div id="exercice-23">
+                    <h3>Ejercicio 23</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 24-->
+                <div id="exercice-24">
+                    <h3>Ejercicio 24</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 25-->
+                <div id="exercice-25">
+                    <h3>Ejercicio 25</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 26-->
+                <div id="exercice-26">
+                    <h3>Ejercicio 26</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 27-->
+                <div id="exercice-27">
+                    <h3>Ejercicio 27</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 28-->
+                <div id="exercice-28">
+                    <h3>Ejercicio 28</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 29-->
+                <div id="exercice-29">
+                    <h3>Ejercicio 29</h3>
+
+                    <hr>
+                </div>
+                <!--Exercice 30-->
+                <div id="exercice-30">
+                    <h3>Ejercicio 30</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 31-->
+                <div id="exercice-31">
+                    <h3>Ejercicio 31</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 32-->
+                <div id="exercice-32">
+                    <h3>Ejercicio 32</h3>
+
+                    <hr>
+                </div>
+                <!--Exercice 33-->
+                <div id="exercice-33">
+                    <h3>Ejercicio 33</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 34-->
+                <div id="exercice-34">
+                    <h3>Ejercicio 34</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 35-->
+                <div id="exercice-35">
+                    <h3>Ejercicio 35</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 36-->
+                <div id="exercice-36">
+                    <h3>Ejercicio 36</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 37-->
+                <div id="exercice-37">
+                    <h3>Ejercicio 37</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 38-->
+                <div id="exercice-38">
+                    <h3>Ejercicio 38</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 39-->
+                <div id="exercice-39">
+                    <h3>Ejercicio 39</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 40-->
+                <div id="exercice-40">
+                    <h3>Ejercicio 40</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 41-->
+                <div id="exercice-41">
+                    <h3>Ejercicio 41</h3>
+
+                    <hr>
+                </div>
+                <!--Exercice 42-->
+                <div id="exercice-42">
+                    <h3>Ejercicio 42</h3>
+
+
+                    <hr>
+                </div>
+                <!--Exercice 43-->
+                <div id="exercice-43">
+                    <h3>Ejercicio 43</h3>
+
+
+                    <hr>
+                </div>
+
+
+
+               </div>
+           </div>
+       </div>
+
+
+   <!--Loading JQuery, Bootstrap Scripts and Exercice Script-->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
