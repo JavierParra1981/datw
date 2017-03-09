@@ -1,0 +1,71 @@
+/*m)
+Ahora definimos las distintas propiedades.*/
+/*1. En la categoría Tipo de texto definir:*/
+/*1. Fuente: Sans-Serif*/
+/*2. Tamaño: 13 y en negrita*/
+/*2. En Fondo debemos repetir la imagen blackmenu_fondo.png horizontalmente y ubicado*/
+ /*horizontalmente a la izquierda y verticalmente centrado.*/
+/*3. En cuadro darle un alto de 30px.*/
+
+#menu {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background-image: url("../img/blackmenu_fondo.png");
+    background-repeat: repeat-x;
+    height: 30px;
+    vertical-align: middle;
+}
+
+/*n)
+Creamos una nueva regla a que afecte a la lista. Para ello elegimos el selector Compuesto*/
+   /*#menu ul. Configuramos lo siguiente:*/
+/*1. En la categoría Cuadro, le damos un ancho de 605 y márgenes 0px al Top y Bottom y el*/
+/*resto auto. El Padding a 0px.*/
+/*2. En Lista, cambiar la propiedad list-style-type a none, para que no se muestren las*/
+/*viñetas junto a los elementos.*/
+
+#menu ul {
+    width: 605px;
+    margin: 0px auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+/*
+o) Creamos una nueva regla para los elementos de la lista, empleando el selector Compuesto*/
+/*#menu li. Configuramos lo siguiente:*/
+/*1. En la categoría Tipo, Line-height a 30px; Float:left, Text-align a center; y en Cuadro,*/
+/*poner un tamaño fijo (el de la imagen) que es 120 de ancho por 30 de alto.*/
+
+
+
+
+/*p) Creamos una nueva regla para los enlaces del menú, empleando el selector Compuesto #menu*/
+/*a. Configuramos lo siguiente:*/
+/*1. En la categoría Tipo, ajustamos las propiedades Color a #CCC y Text-decoration a none.*/
+/*2. En la categoría Fondo es donde estableceremos las imágenes de fondo de los elementos*/
+ /*del menú, utilizando blackmenu_normal.png, repitiendo horizontalmente y centrarlo*/
+/*horizontalmente y verticalmente.*/
+/*3. Para acabar con esta regla, en Bloque establecemos la propiedad Display a block. (para */
+/*mostrar los elementos en línea y no en columnas)*/
+
+
+
+
+
+/*q) Creamos una nueva regla para los enlaces del menú cuando tienen le cursor encima,*/
+   /*empleando el selector Compuesto #menu a:hover.*/
+/*1. En Tipo, cambiamos el Color del texto a #FFF, y en Fondo cambiamos la imagen de*/
+/*fondo a blackmenu_hover.png.*/
+
+
+
+
+/*r) Creamos una nueva regla para los enlaces del menú cuando son pulsados, empleando el*/
+/*selector Compuesto #menu a:active.*/
+/*1. En Tipo, cambiamos el Color del texto a #FFF, y en Fondo cambiamos la imagen de*/
+/*fondo a blackmenu_active.png.*/
+

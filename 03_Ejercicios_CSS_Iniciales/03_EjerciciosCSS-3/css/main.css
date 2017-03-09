@@ -1,0 +1,70 @@
+
+/*
+Una regla para las etiquetas th (encabezados) con las siguientes características: espacio
+entre el borde y el texto: 5px; texto (tipo: Tahoma , tamaño:16, color: #FFFFFF);
+fondo (color: #83aec0, imagen: fondo_th.png y repetirla horizontalmente);
+borde (en la derecha y debajo que sea sólido, 1px y color: #558FA6)
+*/
+
+th{
+  padding: 5px;
+  font-size: 16px;
+  font-family: tahoma;
+  color: #FFFFFF;
+  background-color: #83aec0;
+  background-image: url('../img/fondo_th.png');
+  background-repeat: repeat-x;
+  border-right: 1px solid #558FA6;
+  border-bottom: 1px solid #558FA6;
+}
+
+/*Una regla de clase .fila1 con las siguientes características: Texto (Tipo: “Trebuchet MS”,
+Arial; Tamaño: 12px; color: #34484E y negrita); Color fondo: #e2ebef.*/
+
+.fila1 {
+  font-family: "Trebuchet MS", "Arial";
+  font-size: 12px;
+  color: #34484E;
+  font-weight: bold;
+  background-color: #e2ebef;
+}
+
+/*
+Una regla compuesta .fila1 td con las siguientes características: espacio entre el borde y
+el texto: 5px; borde (en la derecha y debajo que sea sólido, 1px y color: #A4C4D0)
+*/
+
+.fila1 td {
+  padding: 5px;
+  border-right: 1px solid #A4C4D0;
+  border-bottom: 1px solid #A4C4D0;
+}
+
+/*
+Una regla de clase .fila2 con las siguientes características: Texto (Tipo: “Trebuchet MS”,
+Arial; Tamaño: 12px; color: #9E4299 y negrita); Color fondo: #fdfdf1.
+*/
+
+.fila2 {
+  font-family: "Trebuchet MS", "Arial";
+  font-size: 12px;
+  color: #9E4299;
+  font-weight: bold;
+  background-color: #fdfdf1;
+}
+
+/*
+Una regla compuesta .fila2 td con las siguientes características: espacio entre el borde y
+el texto: 5px; borde (en la derecha y debajo que sea sólido, 1px y color: #EBE9BC)
+*/
+
+.fila2 td {
+  padding: 5px;
+  border-right: 1px solid #EBE9BC;
+  border-bottom: 1px solid #EBE9BC;
+
+}
+
+.colimagen {
+  background-color: black;
+}

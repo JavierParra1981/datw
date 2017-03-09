@@ -1,0 +1,72 @@
+/*
+Darle estilo al elemento BODY
+
+e) Asígnale la imagen fondo-logo.gif que se encuentra en la carpeta imagenes del sitio aparezca
+como fondo sin repetición. El fondo debe ser posicionado en el centro en el eje horizontal y
+arriba en el eje vertical.
+
+f) Haz que la fuente del documento sea Verdana, Arial, sans-serif 18px, y de color #535D6F.
+
+g) Asigna la propiedad margen a 20px para todos los lados.
+
+*/
+
+body{
+    /*background-image: url('../imagenes/fondo_logo.gif');
+    background-repeat: no-repeat;
+    background-position: top center;
+    - Esto da problemas
+    */
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 18px;
+    color: #535D6F;
+    margin: 20px;
+}
+
+img.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+Darle estilo al elemento HTML
+
+h) Crea una regla de estilo para la etiqueta HTML. En ella debes de cambiar las propiedades para
+que muestre la imagen fondo.png como fondo repitiendo la imagen horizontalmente,
+ocupando la parte superior de la página, y estableciendo como #D1D6DF color de fondo.
+*/
+
+html{
+    background-image: url('../imagenes/fondo.png');
+    background-repeat: repeat-x;
+    background-color: #D1D6DF;
+}
+
+/*
+Darle estilo a la ID menu
+
+i) Crea una regla de estilo para el elemento con ID menu. Debes de establecer las siguientes
+propiedades: En propiedades de Cuadro, ancho 600px, y los márgenes superior: 80px, inferior
+10px y laterales auto. Además en propiedades de Tipo, el color del texto ha de ser #EFF4FF y
+estar en negrita a 18px. En las propiedades de Bloque, centra el texto.
+
+j) Selecciona la tabla (elemento <table > ). Es el primer texto, que aparece con un marco punteado.
+Asígnale el ID menú en la barra de propiedades HTML.
+
+*/
+
+#menu {
+  width: 600px;
+  color: #EFF4FF;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 80px auto 10px;
+  text-align: center;
+}
+
+.menu-container{
+  width: 100%;
+  height: auto;
+  background-color: #212121;
+  border-radius: 10px 5%;
+}

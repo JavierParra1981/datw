@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<title>Ejemplo Parafo 1</title>
+
+</head>
+
+<body>
+    
+    <h3>Rellena tu CV</h3>
+     <form action="#">
+  <fieldset>
+    <legend>Datos personales</legend>
+    <p>Provincia
+       <select name="provincias">
+        <option selected="selected" disabled="disabled">- selecciona -</option>
+        <option value="murcia">Región de Murcia</option>
+        <option value="vizcaya">Vizcaya</option>    
+        <option value="sevilla">Sevilla</option>
+        <option value="navarra">Navarra</option>
+      </select>
+    </p>
+    <p>
+      <legend>Fecha de nacimiento</legend>
+        <label for="day"/>
+        <input type="number" name="day" min="1" max="31"/>
+        <label for="meses">De</label>
+            <select id="meses" name="meses" />
+                <option>Enero</option>      
+                <option>Febrero</option>      
+                <option>Marzo</option>      
+                <option>Abril</option>      
+                <option>Mayo</option>      
+                <option>Junio</option>      
+                <option>Julio</option>      
+                <option>Agosto</option>      
+                <option>Septiembre</option>      
+                <option>Octubre</option>      
+                <option>Noviembre</option>      
+                <option>Diciembre</option>
+        <label for="year"> De </label>
+        <input type="number" name="year" min="1920" max="2012"/>        
+    </p>
+  </fieldset>
+</form> 
+    
+    
+    <p>
+        <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+    </p>
+</body>
+</html>
