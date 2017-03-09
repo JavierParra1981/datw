@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio formulario - CSS3</title>
+        
+        <style>
+            body {
+                font-family: "Trebuchet MS", Verdana;
+                font-size: 89%;
+                top: 23px;
+                color: #CFECFE;
+                background-color: #002F4F;
+            }
+            .principal {
+                position: relative;
+                width: 721px;
+                padding: 50px auto 50px;
+                margin: 0 auto 0;
+            }    
+            .principal a {
+                color: #CFECFF;
+                text-decoration: none;
+            }
+            .principal h1 {
+                font-size: 320%;
+                color: #FFF;
+            }
+            form {
+                width: 453px;
+                float: left;
+            }
+            label {
+                margin-bottom: 7px;
+                font-size: 123%;
+                position: relative;
+                display: block;
+            }
+            .texto{
+                width: 425px;
+                padding: 8px;
+                background-color: #FFF;
+                color: #061E2F;
+                font-size: 12px;
+                border: 6px solid #001C2F;
+                margin-bottom: 5px;
+            }
+            button {
+                float: right;
+                width: 150px;
+                padding: 8px;
+                background-color: #001C2F;
+                border: none;
+                margin-top: 5px;
+                color: #FFF;
+            }
+            .contacto{
+                width: 244px;
+                float: right;
+                margin-top: 23px;
+            }
+            .contacto a{
+                text-decoration: none;
+            }
+            .contacto a:hover {
+                text-decoration: underline;
+            }
+            .contacto ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            .contacto ul li{
+                padding-left: 33px;
+                margin-bottom: 7px;
+                display: block;
+                height: 28px;
+            }
+            .contacto ul li.telefono {
+                background: url(imagen/telefono.gif) 0 2px no-repeat;
+                background-size:contain;
+            }
+            .contacto ul li.email {
+                background: url(imagen/email.gif) 0 1px no-repeat;
+                background-size: contain;
+            }
+            .contacto ul li.twitter {
+                background: url(imagen/twitter.gif) 0 3px no-repeat;
+                background-size: contain;
+            }
+        </style>
+  
+    </head>
+    <body>
+        <div class="principal">
+        <h1>Contacto</h1>
+            <form action="contactoform.html" method="post";>
+            <p><label for="name">Nombre:</label>
+            <input class="texto" type="text" id="name" name="name" size="40"></p>
+            <p><label for="email">Email:</label>
+            <input class="texto" type="email" id="email" name="email" size="40"></p>
+            <p><label for="mensaje">Mensaje:</label>
+            <textarea class="texto" rows="5" cols="40" id="mensaje" name="mensaje"></textarea></p>
+            <p><button type="submit">ENVIAR...</button></p>
+            
+            </form>
+            <div class="contacto">
+                <p>Tú puedes contactarnos a través de los siguientes medios:</p>
+                <ul>
+                    <li class="telefono">34 (958) 345678</li>
+                    <li class="email"><a href="mailto:hello@mipagina.es">hello@mipagina</a></li>
+                    <li class="twitter"><a href="http://www.twitter.com/mipagina">twitter.com/mipagina</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
